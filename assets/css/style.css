@@ -10,6 +10,19 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+.contact {
+    padding: 5px;
+    color: red;
+    border: 5px solid red;
+    flex: 0 0 59%;
+}
+
+.copyright {
+    padding: 5px;
+    color: red;
+    border: 5px solid red;
+    flex: 0 0 38%;
+}
 
 html {
     color: #222222;
@@ -34,7 +47,6 @@ html {
     color: blueviolet;
     border: 5px solid red;
     display: flex;
-
 }
 
 .container-3 {
@@ -72,7 +84,9 @@ html {
     padding: 5px;
     color: red;
     border: 5px solid red;
+    display: flex;
 }
+
 
 ::-moz-selection {
     background: #b3d4fc;
