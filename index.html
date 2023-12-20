@@ -18,15 +18,17 @@
     <div class="main-container">
         <div class="navbar">
             <h1>Ernell Veraldi</h1>
-            <button type="button">Projects</button>
-            <button type="button">About</button>
-            <button type="button">Contact</button>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
         <!--        Container 2-->
         <div class="container-2">
             <div class="user-photo">
-
-                <img src="profpic.jpg" height="275" width="250"/></div>
+                <img src="assets/img/profile-pic.jpg" height="275" width="250" alt="profile picture">
+            </div>
             <div class="skills">
                 SKILLS
                 <ul>
@@ -38,37 +40,41 @@
 
             </div>
         </div>
+        <section id="about">
             <h1>About Me</h1>
             <p> Starting a new career as a developer by attending UT Bootcamp for Developers. Prior to a career
                 change, I owned my own floral design company and worked in the medical field in an administrative
                 capacity.
                 I am excited to learn, grow and develop my skills to be a marketable developer.</p>
-            <hr>
-            <div class="sub-container-3">
-                <div class="hero">
-                    Projects
+        </section>
+        <hr>
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="work-gallery">
+                <div class="work-item-large">
+                    <a href="https://everaldi66.github.io/code-refactor" target="_blank">
+                        <img src="assets/img/horiseon-screenshot.png" alt="First Application">
+                    </a>
+                    <p>First project</p>
                 </div>
-                <div class="container">
-                    <div class="box">Code Refractor</div>
-                    <div class="box">Professional Profile</div>
-                    <div class="box">JavaScript</div>
-                    <div class="box">Project 4</div>
+
+                <div class="work-item-small">
+                    <a href="https://everaldi66.github.io/my-portfolio" target="_blank">
+                        <img src="assets/img/project-2-screenshot.jpg" alt="Second Project">
+                    </a>
+                    <p>Second project</p>
                 </div>
-            <div class="footer">
-
-            <div class="contact">
-                email: Ernellveraldi@gmail.com
-                github:everaldi66
-                <form action="submission_page.html">
-                    <!-- Add input fields as needed -->
-                    <input type="submit" value="Submit">
-                </form>
-
+                <!-- Add more work items here -->
             </div>
-            <div class="copyright">
-                @copyright 2023
-            </div>
-        </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Ernellveraldi@gmail.com</p>
+        </section>
+        <footer>
+            <p>Copyright &copy' Ernell Veraldi</p>
+        </footer>
     </div>
 </body>
 </html>
