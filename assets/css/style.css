@@ -35,7 +35,7 @@ html {
 
 .container-2 {
     padding: 5px;
-    color: indigo;
+    color: white;
     border: 5px blue;
     display: flex;
     background-color: lightblue;
@@ -58,7 +58,7 @@ html {
 .skills {
     padding: 5px;
     border: 5px solid darkblue;
-    flex: 0 0 62%;
+    flex: 0 0 63%;
 }
 
 .work-item-large img {
@@ -104,7 +104,8 @@ html {
     display: flex;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (max-width: 1200px) {
+    body,
     .work-item, .work-item.large {
         flex-basis: 100%;
     }
